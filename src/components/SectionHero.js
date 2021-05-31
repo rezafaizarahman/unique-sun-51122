@@ -21,8 +21,7 @@ export default class SectionHero extends React.Component {
                 </div>
                 )}
                 {_.get(section, 'actions', null) && (
-                <div className="block-buttons" style="
-    max-width: 640px;">
+                <div className="block-buttons" style="max-width: 640px;">
                   <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
                 </div>
                 )}
