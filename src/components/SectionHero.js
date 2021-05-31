@@ -20,11 +20,6 @@ export default class SectionHero extends React.Component {
                   {markdownify(_.get(section, 'content', null))}
                 </div>
                 )}
-                {_.get(section, 'content', null) && (
-                <div className="block-content inner-xs">
-                  {markdownify(_.get(section, 'content', null))}
-                </div>
-                )}
                 {_.get(section, 'actions', null) && (
                 <div className="block-buttons inner-xs">
                   <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
