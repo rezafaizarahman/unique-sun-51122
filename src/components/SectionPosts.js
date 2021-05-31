@@ -52,7 +52,7 @@ export default class SectionPosts extends React.Component {
                   </div>
                 </div>
                 {_.get(section, 'actions', null) && (
-                <div className="block-buttons inner-sm">
+                <div className="block-buttons">
                   <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
                 </div>
                 )}
