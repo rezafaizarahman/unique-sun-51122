@@ -21,7 +21,7 @@ export default class SectionHero extends React.Component {
                 </div>
                 )}
                 {_.get(section, 'actions', null) && (
-                <div className="block-buttons">
+                <div className="block-buttons inner-xs">
                   <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
                 </div>
                 )}
