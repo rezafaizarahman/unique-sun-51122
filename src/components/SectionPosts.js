@@ -14,7 +14,7 @@ export default class SectionPosts extends React.Component {
             <section id={_.get(section, 'section_id', null)} className="block block-posts outer">
               <div className="inner">
                 {(_.get(section, 'title', null) || _.get(section, 'subtitle', null)) && (
-                <div className="block-header inner-sm">
+                <div className="block-header">
                   {_.get(section, 'title', null) && (
                   <h2 className="block-title line-top">{_.get(section, 'title', null)}</h2>
                   )}
